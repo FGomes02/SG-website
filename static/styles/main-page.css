@@ -1,9 +1,123 @@
+:root {
+    --blue: #081E32;
+    --green: #43C6AC;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter var', sans-serif;
+}
+
+span {
+    color: var(--green);
+}
+
 .header {
+    height: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vh;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo h1 {
+    font-size: 40px;
+    font-weight: bold;
 }
 
 .header-link-list {
     display: flex;
     flex-direction: row;
+    gap: 4vw;
+}
+
+.header-link-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.header-link-list a:first-child {
+    font-weight: bold;
+}
+
+
+
+.hero-container {
+    height: 90vh;
+    display: flex;
+}
+
+.hero-left-container {
+    width: 40vw;
+    /*may be 50 */
+    padding-left: 15vw;
+    padding-right: 10vw;
+    padding-top: 15vh;
+}
+
+.hero-title {
+    font-size: 64px;
+    font-weight: bold;
+    line-height: 85px;
+}
+
+.hero-text {
+    margin-top: 2vh;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: normal;
+}
+
+.hero-button {
+    margin-top: 3vh;
+    background-color: var(--green);
+    color: white;
+    border: none;
+    width: 188px;
+    height: 64px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero-right-container {
+    width: 50vw;
+}
+
+
+
+.info-container {
+    height: 200vh;
+    background-color: var(--blue);
+    padding-top: 5vh;
+}
+
+.description-container {
+    height: 25vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    border-style: solid;
+    border-color: var(--green);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.description-title {
+    margin-top: 3vh;
+    font-size: 50px;
+    color: white;
+
+}
+
+.description-text {
+    margin-top: 4vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    color: white;
+    font-size: 32px;
 }
