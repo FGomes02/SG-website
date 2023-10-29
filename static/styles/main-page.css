@@ -121,3 +121,120 @@ span {
     color: white;
     font-size: 32px;
 }
+
+.services-container {
+    text-align: center;
+}
+
+.services-title-container {
+    margin-top: 8vh;
+    margin-bottom: 4vh;
+}
+
+.services-title {
+    font-size: 48px;
+    font-weight: bold;
+    color: white;
+}
+
+.services-box-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 9vw;
+}
+
+.services-box {
+    height: 35vh;
+    width: 20vw;
+    border: solid;
+    border-radius: 20px;
+    border-color: var(--green);
+}
+
+.services-image-container {
+    margin-top: 4vh;
+}
+
+.services-text-container {
+    margin-top: 2vh;
+}
+
+.service-box-title {
+    font-size: 32px;
+    font-weight: bold;
+    color: var(--green);
+}
+
+.service-box-text {
+    margin-top: vh;
+    padding: 2vh;
+    font-size: 2vmin;
+    color: white;
+}
+
+.services-button {
+    margin-top: 6vh;
+    background-color: var(--green);
+    color: white;
+    border: none;
+    width: 188px;
+    height: 64px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+.portfolio-container {
+    height: 65vh;
+    border-radius: 20px;
+    background-color: white;
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    text-align: center;
+    padding-top: 5vh;
+}
+
+.portfolio-title {
+    font-size: 48px;
+    color: var(--green);
+}
+
+.portfolio-boxes-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 8vh;
+
+}
+
+.portfolio-box {
+    height: 35vh;
+    width: 20vw;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 50px;
+}
+
+.portfolio-image-box-container {
+    height: 30vh;
+}
+
+.portfolio-box-title {
+    font-size: 36px;
+    font-weight: normal;
+}
+
+.portfolio-button {
+    background-color: var(--green);
+    color: white;
+    border: none;
+    width: 188px;
+    height: 64px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
